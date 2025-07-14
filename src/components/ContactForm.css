@@ -1,0 +1,72 @@
+.contact-section {
+  background: var(--secondary-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 2rem auto 3rem auto;
+  max-width: 700px;
+  transition: background var(--transition);
+}
+.section-title {
+  font-size: 1.7rem;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--input-bg);
+  color: var(--primary-text);
+  transition: border var(--transition), background var(--transition);
+  resize: none;
+}
+.contact-form textarea {
+  min-height: 110px;
+}
+.contact-form button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.9rem 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+.contact-form button:hover {
+  background: var(--accent-hover);
+}
+.contact-success {
+  color: green;
+  margin-top: 0.5rem;
+}
+.contact-error {
+  color: red;
+  margin-top: 0.5rem;
+}
+.contact-info {
+  margin-top: 1.5rem;
+  color: var(--primary-text);
+  opacity: 0.85;
+  font-size: 1rem;
+}
+.contact-info a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .contact-section {
+    padding: 1.5rem 0.5rem;
+  }
+} 

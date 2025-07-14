@@ -1,0 +1,66 @@
+.services-section {
+  background: var(--secondary-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 2rem auto 3rem auto;
+  max-width: 900px;
+  transition: background var(--transition);
+}
+.section-title {
+  font-size: 1.7rem;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.accordion-item {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: background var(--transition);
+}
+.accordion-title {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--primary-text);
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  transition: background var(--transition), color var(--transition);
+}
+.accordion-title:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.accordion-arrow {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+.accordion-content {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  color: var(--primary-text);
+  opacity: 0.9;
+  font-size: 1.05rem;
+  border-top: 1px solid var(--input-border);
+}
+@media (max-width: 700px) {
+  .services-section {
+    padding: 1.5rem 0.5rem;
+  }
+  .accordion-title, .accordion-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+} 

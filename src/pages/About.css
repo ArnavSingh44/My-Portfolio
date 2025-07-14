@@ -1,0 +1,44 @@
+.about {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+}
+.about__profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.about__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent, #007bff);
+}
+.about__skills {
+  margin-top: 1rem;
+}
+.about__skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+.about__skills li {
+  background: var(--card-bg, #f0f0f0);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  .about__profile {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .about__img {
+    margin-bottom: 1rem;
+  }
+} 

@@ -1,0 +1,31 @@
+.project-card {
+  background: var(--card-bg, #fff);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  margin: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.project-card__links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.project-card__demo-btn {
+  background: var(--accent, #007bff);
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.project-card__demo-btn:hover {
+  background: #0056b3;
+} 
