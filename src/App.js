@@ -7,8 +7,6 @@ import ServicesAccordion from "./components/ServicesAccordion";
 import ProjectsGrid from "./components/ProjectsGrid";
 import ExperienceEducation from "./components/ExperienceEducation";
 import SkillsBar from "./components/SkillsBar";
-import Testimonials from "./components/Testimonials";
-import BlogPreview from "./components/BlogPreview";
 import ContactForm from "./components/ContactForm";
 import { ThemeProvider } from "./themeContext";
 import "./App.css";
@@ -29,8 +27,6 @@ function App() {
         <ProjectsGrid />
         <ExperienceEducation />
         <SkillsBar />
-        <Testimonials />
-        <BlogPreview />
         <ContactForm />
         <Footer />
       </div>

@@ -21,7 +21,7 @@ const projects = [
     title: "Movie Finder",
     image: "https://cdn-icons-png.flaticon.com/512/833/833314.png", // Using a generic movie search icon as a placeholder
     description: "A responsive React app to search movies, filter by genre, and manage a watchlist using the TMDB API. Features dark/light mode, infinite scroll, and a modern UI.",
-    demo: "#", // Add your live demo link here if available
+    demo: "https://movie-finder-ten-iota.vercel.app",
     github: "https://github.com/ArnavSingh44/Movie-Finder"
   }
 ];
