@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ThemeToggle from "./components/ThemeToggle";
 import HeroSection from "./components/HeroSection";
-import ServicesAccordion from "./components/ServicesAccordion";
-import ProjectsGrid from "./components/ProjectsGrid";
-import ExperienceEducation from "./components/ExperienceEducation";
-import SkillsBar from "./components/SkillsBar";
-import ContactForm from "./components/ContactForm";
+import AboutSection from "./components/AboutSection";
+import SkillsSection from "./components/SkillsSection";
+import ExperienceSection from "./components/ExperienceSection";
+import ProjectsSection from "./components/ProjectsSection";
+import EducationSection from "./components/EducationSection";
+import ContactSection from "./components/ContactSection";
 import { ThemeProvider } from "./themeContext";
 import "./App.css";
 import AOS from "aos";
@@ -15,19 +15,20 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init({ once: false, duration: 900, easing: "ease-out-cubic" });
+    AOS.init({ once: true, duration: 800, easing: "ease-out-cubic", offset: 80 });
   }, []);
+
   return (
     <ThemeProvider>
       <div className="App">
         <Navbar />
-        <ThemeToggle />
         <HeroSection />
-        <ServicesAccordion />
-        <ProjectsGrid />
-        <ExperienceEducation />
-        <SkillsBar />
-        <ContactForm />
+        <AboutSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <EducationSection />
+        <ContactSection />
         <Footer />
       </div>
     </ThemeProvider>

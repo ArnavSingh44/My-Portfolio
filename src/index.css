@@ -1,9 +1,18 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-family: 'Inter', 'Outfit', sans-serif;
   box-sizing: border-box;
 }
+
 * {
   box-sizing: inherit;
+}
+
+/* Smooth AOS transitions look better with this */
+[data-aos] {
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  pointer-events: auto;
 }
