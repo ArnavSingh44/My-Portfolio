@@ -2,18 +2,7 @@ import React, { useState } from "react";
 import "./ProjectsSection.css";
 
 const projects = [
-  {
-    id: 1,
-    title: "Anime World Website",
-    category: "Web",
-    period: "2023",
-    description: "A sleek, interactive website for anime fans featuring smooth animations, responsive design, and easy navigation. Built with HTML, CSS, and JavaScript.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-    demo: "#",
-    github: "https://github.com/ArnavSingh44",
-    featured: false,
-  },
+
   {
     id: 2,
     title: "Movie Finder",
