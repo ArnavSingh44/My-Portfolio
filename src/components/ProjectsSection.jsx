@@ -50,6 +50,18 @@ const projects = [
     github: "https://github.com/ArnavSingh44",
     featured: false,
   },
+  {
+    id: 5,
+    title: "AI Operating System",
+    category: "Web",
+    period: "2024",
+    description: "An innovative AI-powered operating system web interface. Features a sleek, modern UI with interactive elements and smart assistant capabilities.",
+    tags: ["React", "JavaScript", "CSS", "Vercel"],
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+    demo: "https://aegis-01.vercel.app/",
+    github: "https://github.com/ArnavSingh44/AI-Operating-System",
+    featured: true,
+  },
 ];
 
 const tabs = ["All", "Web", "Game"];
